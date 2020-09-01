@@ -75,7 +75,7 @@ print(log.classes_)
 print(f"Incorrect {correct}")
 print(f"Incorrect: {incorrect}")
 print(classification_report(ytest, pred))
-
+print(f"Training Bais:{log.score(xtrain,ytrain) :.2f} %")
 
 
 
